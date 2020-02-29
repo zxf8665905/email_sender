@@ -1,20 +1,20 @@
 # Email Sender
 A email send tool.
 
-## steup
+## Steup
 ```bash
-mkdir build && cd build
-cmake ..
-make
+git clone https://github.com/zxf8665905/email_sender.git
+cd email_sender && mkdir build && cd build
+cmake .. && make
 ```
 
-## sender email (use default config)
+## Sender email (use default config)
 ```bash
 cp ../example/config.example config.txt
 ./email
 ```
 
-## sender email (use custom config)
+## Sender email (use custom config)
 ```bash
 cp ../example/config.example config.txt
 vi "config.txt" # to custom your sender email config.
