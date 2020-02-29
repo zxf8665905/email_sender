@@ -1,5 +1,6 @@
 #include "sender.h"
 
+
 Sender::Sender(const std::string& smtp_server,
                          const int smtp_port,
                          const std::string& sender_email,
